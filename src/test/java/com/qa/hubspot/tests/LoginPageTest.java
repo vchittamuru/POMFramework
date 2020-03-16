@@ -39,7 +39,7 @@ public class LoginPageTest {
 		basePage = new BasePage();
 		prop = basePage.init_properties();
 				
-		
+		//browser
 		if(browser.equals(null) || browser.equals("") || browser.isEmpty()){
 			 browserName = prop.getProperty("browser");
 		}else{
